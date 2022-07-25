@@ -10,3 +10,31 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    justify-content: center;
+    display: flex;
+}
+.principal {
+    width:600px;
+    background-color: rgb(235, 238, 241);
+    padding-top: 20px;
+    text-align: center;
+}
+h1 {
+    justify-content: center;
+}
+.personal { 
+    border: 1px solid rgb(224, 220, 220);
+    border-radius: 5px;
+    list-style-type: none;
+    width: 275px;
+    height: 45px;
+    align-content:center;
+    justify-content: space-between;
+    padding: 10px;
+    display:flex;
+    background-color: white;
+}
+ul {
+    padding-left: 0px;
+}
